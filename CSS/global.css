@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Montserrat&display=swap');
+
+html{
+width: 62,5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+}
+
+main{
+    padding-inline: 3.125rem;
+}
+button{
+    border: none;
+}
+
+h1 , .cabeçalho, .cabeçalho-L{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1 {
+    margin-bottom: 3.75rem;
+    font-size: 5.625rem;
+    margin-top: 3.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 8.3125rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+
+    font-size: 1.5625rem;
+    color: #ffff;
+    text-align: center;
+    padding-inline: 1rem;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
+
+header {
+    position: sticky;
+    top: 0;
+    height: 5.625rem;
+    background: var(--verde-header);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header img{
+    width: 5.625rem;
+    height: 5.625rem;
+    left: 3.3125rem;
+    margin-left: 3.3125rem;
+    margin-right: 8.125rem;
+    
+}
+
+.cabeçalho {
+    margin-right: 8.125rem;
+    width: 11.25rem;
+    height: 3.125rem;
+    background: var(--verde-botoes);
+    margin-block: 1.25rem;
+    border-radius: 0.625rem;
+    font-size: 1.875rem;
+    color: #ffff;
+    
+}
+
+.cabeçalho-L{
+    background-color: var(--azul);
+    margin-right: 8.125rem;
+    width: 11.25rem;
+    height: 3.125rem;
+    margin-block: 1.25rem;
+    border-radius: 0.625rem;
+    font-size: 1.875rem;
+    color: #ffff;
+}
+
+#header, #terrestre, #terrestre-2, #atmosferica, #atmosferica-2, #hidrica, #hidrica-2{
+    height: 4rem;
+    background: #ffff;
+}
